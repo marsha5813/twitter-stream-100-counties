@@ -1,5 +1,5 @@
 # README
-This project collects a random sample of tweets from the 100 most populous counties in the United States using Twitter's stream API. If you don't adjust the parameters, the program will try to stream up to 1,000 tweets from each location, with a timeout of 5 minutes per search. Read more about Twitter's streaming APIs at [this link](https://dev.twitter.com/streaming/overview).
+This project collects a random sample of tweets from the 100 most populous counties in the United States using R and Twitter's streaming API. If you don't adjust the parameters, the program will try to stream up to 1,000 tweets from each location, with a timeout of 5 minutes per search. Read more about Twitter's streaming APIs at [this link](https://dev.twitter.com/streaming/overview).
 
 
 ## Details
