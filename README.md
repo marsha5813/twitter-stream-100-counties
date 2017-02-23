@@ -22,6 +22,6 @@ save(my_oauth, file = "my_oauth.Rdata")
 ```
 
 ### Geolocation
-The filterStream command takes a "location" argument in which you can specify a bounding box around a location in which you want to search. This argument takes the form of a longitude/latitude pairs with the southwest corner coming first. See help(filterStream). I obtained the coordinates for the bounding boxes from Github user stucka (https://github.com/stucka/us-county-bounding-boxes) in csv format. I then merged in county population data from the 2010 Census to sort out the 100 most populous counties.
+The filterStream command takes a "location" argument in which you can specify a bounding box around a location that you want to search. This argument takes the form of two longitude/latitude pairs with the southwest corner coming first. See help(filterStream). I obtained the coordinates for the bounding boxes from Github user Mike Stucka (https://github.com/stucka/us-county-bounding-boxes) in csv format. I then merged in county population data from the 2010 Census to sort out the 100 most populous counties.
 
 It's possible to collect tweets that fall within the bounding box (a rectangle) but outside of the county boundaries (a complex polygon). I'm currently writing a program to identify fips codes exactly from each tweet based on lat/lon coordinates. I'll update this repo when that program is ready.
